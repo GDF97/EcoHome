@@ -208,6 +208,15 @@ li {
   border-right: 1px solid black;
 }
 
+.products
+  > .products_section
+  > .products_cards
+  > .card
+  > .product_desc
+  > div:nth-child(2) {
+  gap: 0.25rem;
+}
+
 .products > .products_section > button {
   padding: 1rem 4rem;
   display: flex;
@@ -255,14 +264,14 @@ li {
     text-align: center;
   }
 
-	.first_section > .text_article > h1 {
+  .first_section > .text_article > h1 {
     font-size: 3.75rem;
-	}
+  }
 
-	.first_section > .text_article > p {
+  .first_section > .text_article > p {
     font-size: 2rem;
-		width: fit-content;
-	}
+    width: fit-content;
+  }
   .first_section > .image_article {
     display: none;
   }
